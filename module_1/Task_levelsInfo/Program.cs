@@ -27,7 +27,7 @@ namespace FirstApp
                 $"Верхняя граница = {levelUp}\n" +
                 $"Нижняя граница = {levelDown}\n" +
                 $"Шаг уровня = {stepSize}\n" +
-                $"Предлагаемое количество уровней = {stepLevels}\n");
+                $"Предлагаемое количество уровней = до {stepLevels}\n");
 
 
                 Console.WriteLine("\nВведены верные значения? Yes - 1 No - 0");
