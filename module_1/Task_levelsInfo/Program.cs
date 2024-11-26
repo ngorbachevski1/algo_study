@@ -40,7 +40,7 @@ namespace FirstApp
                 if (answerData == 1)
                 {
                     // Проверка на реальную правильность введенных данных
-                    if (levelUp > levelDown + stepSize)
+                    if (levelUp >= levelDown + stepSize)
                     {
                         int levelNumber = 1;
                         for (decimal i = levelDown; i <= levelUp; i = i + stepSize)
